@@ -5,7 +5,7 @@
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{2ACA3476-2157-472D-A800-847A9544FBE2}</ProjectGuid>
-        <OutputType>Exe</OutputType>
+        <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Wormholes</RootNamespace>
         <AssemblyName>Wormholes</AssemblyName>
