@@ -1,5 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005C0Harmony_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005C0Harmony20_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CAssembly_002DCSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CBepInEx_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CBepInEx_002EHarmony_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CBepInEx_002EPreloader_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CHarmonyXInterop_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMono_002ECecil_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMono_002ECecil_002EMdb_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMono_002ECecil_002EPdb_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMono_002ECecil_002ERocks_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMonoMod_002ERuntimeDetour_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMonoMod_002EUtils_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CMono_002ESecurity_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005Cmscorlib_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005Cnetstandard_002Edll/@EntryIndexedValue">True</s:Boolean>
@@ -88,4 +100,7 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CUnityEngine_002EVRModule_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CUnityEngine_002EWindModule_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CUnityEngine_002EXRModule_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CXGamingRuntime_002Edll/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cmathm_005CRiderProjects_005CDSPMods_005CReferences_005CXGamingRuntime_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\mathm\RiderProjects\DSPMods\References\Assembly-CSharp.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
