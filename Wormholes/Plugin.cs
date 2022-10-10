@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BepInEx;
+using HarmonyLib;
 
 namespace Wormholes
 {
@@ -10,20 +11,35 @@ namespace Wormholes
         public void Awake()
         {
             Logger.LogInfo("Wormholes loading...");
-
-            var itemsProperty = typeof(LDB).GetProperty("items");
-            if (itemsProperty == null) return;
             
-            var itemSet = (ItemProtoSet)itemsProperty.GetValue(null);
-            var items = new List<ItemProto>(itemSet.dataArray);
-            Logger.LogInfo(items.Count + " items in default game.");
+            var harmony = new Harmony(GetType().ToString());
+            Logger.LogInfo("Wormholes loading...");
+            var method = AccessTools.PropertyGetter(typeof(LDB), "items");
+            Logger.LogInfo("Wormholes loading...");
+            var postFix = SymbolExtensions.GetMethodInfo<ItemProtoSet>((value) => MyPostFix(ref value));
+            Logger.LogInfo("Wormholes loading...");
+            try
+            {
 
-            var item = new ItemProto();
-            items.Add(item);
-            itemSet.dataArray = items.ToArray();
+                harmony.Patch(method, null, new HarmonyMethod(postFix));
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+                throw;
+            }
+            Logger.LogInfo("Wormholes loading...");
             
-            itemsProperty.SetValue(null, itemSet);
             Logger.LogInfo(LDB.items.Length + " items present in modded game.");
+        }
+
+        private void MyPostFix(ref ItemProtoSet __result)
+        {
+            Logger.LogInfo("MyPostFix");
+            __result.Init(__result.Length + 1);
+            Logger.LogInfo("MyPostFix");
+            __result[__result.Length] = new ItemProto();
+            Logger.LogInfo("MyPostFix");
         }
     }
 }
