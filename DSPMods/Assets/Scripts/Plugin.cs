@@ -1,9 +1,14 @@
-﻿namespace DSPMods;
+﻿using System;
+
+namespace DSPMods;
 
 using BepInEx;
 
-[BepInPlugin()]
-public class Plugin : Plugin2
+[BepInPlugin("DSPMods", "Minigun", "0.0")]
+public class Plugin : BaseUnityPlugin
 {
-    
+    private void Awake()
+    {
+        
+    }
 }
